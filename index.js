@@ -1,4 +1,4 @@
-addingEventListener() = 
+function addingEventListener(){  
 const input = document.getElementById('input');
 
 function clickAlert() {
@@ -6,4 +6,5 @@ function clickAlert() {
 }
 
 input.addEventListener('click', clickAlert);
-
+}
+addingEventListener()
